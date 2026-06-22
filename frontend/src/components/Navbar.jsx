@@ -12,9 +12,17 @@ function Navbar() {
       </NavLink>
 
       <div className="nav-links">
+            <NavLink className="nav-item" to="/dashboard">
+              Dashboard
+            </NavLink>
+
         <NavLink className="nav-item" to="/products">
           Products
         </NavLink>
+
+            <NavLink className="nav-item" to="/categories">
+              Categories
+            </NavLink>
 
         <NavLink className="nav-item" to="/purchases">
           Purchases
@@ -22,6 +30,10 @@ function Navbar() {
 
         <NavLink className="nav-item" to="/sales">
           Sales Summary
+        </NavLink>
+
+        <NavLink className="nav-item" to="/inventory">
+          Inventory
         </NavLink>
       </div>
     </nav>
